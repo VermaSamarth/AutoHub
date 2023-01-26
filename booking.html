@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="text-gray-600 body-font w-full" style="background-color:white; position: fixed;height: 70px;">
+    <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center ">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <a href="for_drivers.html"><img src="AutoHub__Hassle-free_Auto_Booking_-removebg-preview.png" alt="" width="60"></a>
+        <a href="for_drivers.html"><span class="ml-3 text-3xl" style="color: black;"><strong>AUTOHUB</strong></span></a>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 text-gray-900 hover:text-green-500 text-xl pl-2 px-4" href="for_drivers.html"><strong>Home</strong></a>
+        <a class="mr-5 text-gray-900 hover:text-green-500 text-xl pl-4 px-4" href="Bookings.html"><strong>Booking</strong></a>
+        <a class="mr-5 text-gray-900 hover:text-green-500 text-xl pl-4 px-8" href="contact_us.html"><strong>Contact Us</strong></a>
+        <a class="mr-5 text-gray-900 hover:text-green-500 text-xl pl-4 px-39/2" href="about_us.html"><strong>About Us</strong></a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-green-400 border-0 py-1 px-8 focus:outline-none hover:bg-green-500 rounded text-medium mt-4 md:mt-0 text-gray-700"
+        href="signin.html">
+        <a href="index.html" target="_blank">
+          <strong>For People</strong>
+        </a>
+      </button>
+    </div>
+  </header>
+  <br><br>
+  <br><br><br>
+  <div class="text-center mb-5">
+    <h1 class="sm:text-5xl text-2xl font-medium title-font text-gray-900 mb-4 hover:text-green-500"><strong>Place Your Price Offer.</strong></h1>
+  </div>
+  <!-- <section class="text-gray-600 body-font" >
+    <div class="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div class="container px-5 py-5 mx-auto">
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+              <div class="flex flex-wrap -m-2">
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="name" class="leading-7 text-sm text-gray-900" aria-placeholder="VIT Mens Hostel" aria-required="true"><strong>Your Location:</strong></label>
+                    <input type="text" id="name1" name="name"
+                      class="w-full bg-white-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-5 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="userId" class="leading-7 text-sm text-gray-900"><strong>Your Destination:</strong></label>
+                    <input type="text" id="uderId" name="uderId"
+                      class="w-full bg-white-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="phonenumber" class="leading-7 text-sm text-gray-900"><strong>Minimum Fare:</strong></label>
+                    <input type="number" id="phone" name="phone"
+                      class="w-full bg-white-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="phonenumber" class="leading-7 text-sm text-gray-900"><strong>Maximum Fare:</strong></label>
+                    <input type="number" id="phone" name="phone"
+                      class="w-full bg-white-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="phonenumber" class="leading-7 text-sm text-gray-900"><strong>Your Phone Number:</strong></label>
+                    <input type="number" id="phone" name="phone"
+                      class="w-full bg-white-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="name" class="leading-7 text-sm text-gray-900"><strong>Your Name:</strong></label>
+                    <input type="text" id="name" name="name"
+                      class="w-full bg-white-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-5 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                
+                <div class="p-2 w-full">
+                  <a href="signin.html">
+                    <button
+                      class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg bg-green-500 shadow-lg shadow-green-500/50">Send
+                      Now</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+         
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" style="background-color: #ffffff;">
+        <img class="object-cover object-center rounded" alt="hero" src="pricing table.png" style="border-color: #ffffff; border: bottom width 80px;border-right-width:30px;border-bottom-width: 80px;">
+      </div>
+    </div>
+  </section> -->
+  
+<form>
+    <div class="grid gap-6 mb-6 md:grid-cols-2">
+        <div>
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">PickUp Location:</label>
+            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required style="border-left-width: 100px; border-color: white;">
+        </div>
+        <div>
+            <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Drop Location:</label>
+            <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Doe" required style="border-right-width: 100px; border-color: white;">
+        </div>
+        <div>
+            <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Customer Name:</label>
+            <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Flowbite" required style="border-left-width: 100px; border-color: white;">
+        </div>  
+        <div>
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number:</label>
+            <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required style="border-right-width: 100px; border-color: white;">
+        </div>
+        <div>
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Minimum Offer:</label>
+            <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required style="border-left-width: 100px; border-color: white;">
+        </div>
+        <div>
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Maximum Offer:</label>
+            <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required style="border-right-width: 100px; border-color: white;">
+        </div>
+        <div>
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Current MInimum Offer:</label>
+            <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required style="border-right-width: 100px; border-color: white;">
+        </div>
+        <div>
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Offer:</label>
+            <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required style="border-right-width: 100px; border-color: white;">
+        </div>
+
+        
+    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+</form>
+
+
+</body>
+</html>
